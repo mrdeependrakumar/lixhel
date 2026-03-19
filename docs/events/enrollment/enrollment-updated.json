@@ -1,0 +1,12 @@
+{
+  "eventId": "uuid",
+  "eventType": "ENROLLMENT_UPDATED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "enrollment-service",
+  "data": {
+    "enrollmentId": "string",
+    "updatedFields": ["string"],
+    "status": "UPDATED"
+  }
+}

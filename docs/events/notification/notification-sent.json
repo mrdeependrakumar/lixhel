@@ -1,0 +1,11 @@
+{
+  "eventId": "uuid",
+  "eventType": "NOTIFICATION_SENT",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "notification-service",
+  "data": {
+    "notificationId": "string",
+    "status": "SENT"
+  }
+}

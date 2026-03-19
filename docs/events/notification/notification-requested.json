@@ -1,0 +1,13 @@
+{
+  "eventId": "uuid",
+  "eventType": "NOTIFICATION_REQUESTED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "saga-orchestrator",
+  "data": {
+    "notificationId": "string",
+    "type": "EMAIL/SMS",
+    "recipient": "string",
+    "message": "string"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "eventId": "uuid",
+  "eventType": "ENROLLMENT_CREATED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "enrollment-service",
+  "data": {
+    "enrollmentId": "string",
+    "userId": "string",
+    "email": "string",
+    "status": "CREATED"
+  }
+}

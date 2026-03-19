@@ -1,0 +1,12 @@
+{
+  "eventId": "uuid",
+  "eventType": "SYSTEM_FAILURE",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "any-service",
+  "data": {
+    "serviceName": "string",
+    "errorMessage": "string",
+    "errorCode": "string"
+  }
+}

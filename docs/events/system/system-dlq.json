@@ -1,0 +1,13 @@
+{
+  "eventId": "uuid",
+  "eventType": "SYSTEM_DLQ",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "kafka-consumer",
+  "data": {
+    "originalTopic": "string",
+    "partition": "number",
+    "offset": "number",
+    "reason": "string"
+  }
+}

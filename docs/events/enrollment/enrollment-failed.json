@@ -1,0 +1,12 @@
+{
+  "eventId": "uuid",
+  "eventType": "ENROLLMENT_FAILED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "enrollment-service",
+  "data": {
+    "enrollmentId": "string",
+    "errorMessage": "string",
+    "errorCode": "string"
+  }
+}

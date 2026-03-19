@@ -1,0 +1,13 @@
+{
+  "eventId": "uuid",
+  "eventType": "FILE_UPLOAD_REQUESTED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "fileviewer-service",
+  "data": {
+    "fileId": "string",
+    "fileName": "string",
+    "enrollmentId": "string",
+    "fileType": "string"
+  }
+}

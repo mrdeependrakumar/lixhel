@@ -1,0 +1,13 @@
+{
+  "eventId": "uuid",
+  "eventType": "FILE_PROCESSING_FAILED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "fileviewer-service",
+  "data": {
+    "fileId": "string",
+    "enrollmentId": "string",
+    "errorMessage": "string",
+    "errorCode": "string"
+  }
+}

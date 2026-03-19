@@ -1,0 +1,12 @@
+{
+  "eventId": "uuid",
+  "eventType": "NOTIFICATION_FAILED",
+  "version": "v1",
+  "timestamp": "ISO_DATE",
+  "source": "notification-service",
+  "data": {
+    "notificationId": "string",
+    "errorMessage": "string",
+    "errorCode": "string"
+  }
+}
