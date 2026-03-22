@@ -167,7 +167,16 @@ All tables include:
 
 #### outbox_events
 
-(Same structure as Enrollment)
+| Column       | Type      | Description         |
+| ------------ | --------- | ------------------- |
+| id           | UUID (PK) | Internal ID         |
+| event_id     | UUID      | Unique event ID     |
+| event_type   | VARCHAR   | Event type          |
+| aggregate_id | UUID      | Entity reference    |
+| payload      | JSONB     | Event payload       |
+| status       | VARCHAR   | NEW / SENT / FAILED |
+| created_at   | TIMESTAMP | Created time        |
+| processed_at | TIMESTAMP | Processed time      |
 
 ---
 
@@ -219,7 +228,16 @@ All tables include:
 
 #### outbox_events
 
-(Same structure as Enrollment)
+| Column       | Type      | Description         |
+| ------------ | --------- | ------------------- |
+| id           | UUID (PK) | Internal ID         |
+| event_id     | UUID      | Unique event ID     |
+| event_type   | VARCHAR   | Event type          |
+| aggregate_id | UUID      | Entity reference    |
+| payload      | JSONB     | Event payload       |
+| status       | VARCHAR   | NEW / SENT / FAILED |
+| created_at   | TIMESTAMP | Created time        |
+| processed_at | TIMESTAMP | Processed time      |
 
 ---
 
