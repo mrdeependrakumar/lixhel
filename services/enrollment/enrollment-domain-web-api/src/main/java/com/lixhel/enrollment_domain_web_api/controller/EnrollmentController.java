@@ -23,4 +23,6 @@ public class EnrollmentController {
     public Enrollment create(@RequestParam UUID userId) {
         return service.createEnrollment(userId);
     }
+    
+    
 }

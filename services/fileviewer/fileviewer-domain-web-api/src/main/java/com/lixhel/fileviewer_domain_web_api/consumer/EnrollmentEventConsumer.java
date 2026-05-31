@@ -25,10 +25,6 @@ public class EnrollmentEventConsumer {
         topics = "enrollment.created.v1",
         groupId = "fileviewer-group"
     )
-    
-   
-
-    
     public void consume(String message) {
 
         log.info("Received event: {}", message);
